@@ -9,4 +9,4 @@ if  (userAge < 18){
 (price = price - discount2);
 }
 document.getElementById('scrivi').innerHTML =
-"Il prezzo del suo biglietto è di euro: " + price;
+"Il prezzo del suo biglietto è di euro: " + price.toFixed(2);
